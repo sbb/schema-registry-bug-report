@@ -1,0 +1,6 @@
+{
+  "subject": "messagetype",
+  "version": 2,
+  "id": 62,
+  "schema": "{\"type\":\"record\",\"name\":\"MessageType\",\"namespace\":\"org.penguinis.schema.bug.domain\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"}]}"
+}

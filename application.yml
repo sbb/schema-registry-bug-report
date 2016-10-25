@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    stream:
+      schema:
+        avro:
+          dynamicSchemaGenerationEnabled: true
+      schemaRegistryClient:
+        endpoint: http://localhost:8081
+      bindings:
+        input:
+          contentType: application/*+avro
+
+confluent:
+  schemaregistry:
+    endpoint: http://localhost:8081
